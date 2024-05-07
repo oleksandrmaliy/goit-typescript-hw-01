@@ -67,3 +67,10 @@ import './style.css';
 // merged.name;
 
 // export {};
+
+console.log('ts' + '   ' + 10000);
+const callback = (a: number): number => {
+  return 100 + a;
+};
+
+console.log(callback(200));
