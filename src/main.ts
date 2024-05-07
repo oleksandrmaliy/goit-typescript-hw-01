@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 
 // // src/main.ts
 
@@ -34,5 +34,36 @@
 // let arrNumber: number[];
 
 // arrNumber = [1, 'Text'];
+
+// export {};
+
+// enum Role {
+//   ADMIN,
+//   USER,
+// }
+
+// const person = {
+//   role: Role.ADMIN,
+// };
+
+// if (person.role === Role.ADMIN) {
+//   console.log('Role: ', Role.ADMIN);
+// }
+
+// type Person = {
+//   name: string;
+// };
+
+// type AdditionFields = {
+//   age: number;
+// };
+
+// function merge<T, U>(objA: T, objB: U) {
+//   return Object.assign(objA, objB);
+// }
+
+// const merged = merge<Person, AdditionFields>({ name: 'Alisa' }, { age: 28 });
+
+// merged.name;
 
 // export {};
