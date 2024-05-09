@@ -74,3 +74,54 @@ const callback = (a: number): number => {
 };
 
 console.log(callback(200));
+
+// enum DayOfWeek {
+//   Monday,
+//   Tuesday,
+//   Wednesday,
+//   Thursday,
+//   Friday,
+//   Saturday,
+//   Sunday,
+// }
+
+// console.log(DayOfWeek.Saturday);
+
+// const isWeekend = (day: DayOfWeek) => {
+//   return `Aaaaaaa ${day}`;
+// };
+
+// isWeekend(day);
+
+// export default isWeekend;
+
+// enum Role {
+//   ADMIN,
+//   USER,
+// }
+
+// const person = {
+//   role: Role.ADMIN,
+// };
+
+// if (person.role === Role.ADMIN) {
+//   console.log('Role: ', Role.ADMIN);
+// }
+
+// export = {};
+
+enum Weekday {
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday,
+  Friday,
+  Saturday,
+  Sunday,
+}
+
+function isWeekend(day: Weekday): boolean {
+  return day < 5;
+}
+
+console.log(isWeekend(Weekday.Wednesday));
