@@ -11,5 +11,3 @@ enum Weekday {
 function isWeekend(day: Weekday): boolean {
   return day < 5;
 }
-
-// console.log(isWeekend(Weekday.Wednesday));
